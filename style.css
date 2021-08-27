@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(81, 235, 235);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 10px 0px;
+}
+
+.content p {
+  text-align: center;
+}
+
+.content {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.content h4 {
+  text-align: center;
+}
+
+.content .input {
+  padding: 0 60px;
+  display: flex;
+}
+
+.content .input input {
+  width: 220px;
+  height: 40px;
+  text-indent: 10px;
+}
+
+.content .input button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(152, 152, 246);
+  border-color: rgb(152, 152, 246);
+  margin: 2px 0 0 10px;
+}
+
+.content .input button:hover {
+  background-color: aqua;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.container ul {
+  list-style: none;
+  padding: 5px 65px;
+}
+
+.container ul li {
+  background-color: rgb(218, 232, 252);
+  margin-top: 5px;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.container ul li button {
+  float: right;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: rgb(218, 232, 252);
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container ul li button:hover {
+  color: red;
+}
+
+#completed li {
+  background-color: rgb(163, 242, 163);
+}
+
+#completed li button {
+  background-color: rgb(163, 242, 163);
+}
